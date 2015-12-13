@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.qiuyi.cookingbootcamp.Delete"
+  >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input your delete recipe ID..."
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/deleteTitle"
+        android:layout_marginTop="50dp"
+        android:typeface="normal"
+        android:textAllCaps="false"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteRecipeId"
+        android:layout_below="@+id/deleteTitle"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:layout_marginTop="50dp"
+        android:ems="5"
+        android:textSize="20dp"
+        android:typeface="monospace"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deleteRecipeId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Delete"
+        android:id="@+id/deleteRecipeButton"
+        android:textSize="20dp"
+        android:typeface="normal"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/shape"
+
+        />
+</RelativeLayout>

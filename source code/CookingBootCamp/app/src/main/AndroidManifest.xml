@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qiuyi.cookingbootcamp" >
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ui.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ui.Register"
+            android:label="@string/title_activity_register_page" >
+        </activity>
+        <activity
+            android:name="ui.UploadProfilePhoto"
+            android:label="@string/title_activity_upload_profile_photo_page" >
+        </activity>
+        <activity
+            android:name="ui.ConfirmPhoto"
+            android:label="@string/title_activity_confirm_photo_page" >
+        </activity>
+        <activity
+            android:name="ui.MainMenu"
+            android:label="@string/title_activity_main_menu_page" >
+        </activity>
+        <activity
+            android:name="ui.RecipeDetail"
+            android:label="@string/title_activity_recipe_detail_page" >
+        </activity>
+        <activity
+            android:name="ui.CookPersonalInformation"
+            android:label="@string/title_activity_cook_personal_information_page" >
+        </activity>
+        <activity
+            android:name="ui.UploadRecipe"
+            android:label="@string/title_activity_upload_recipe_page" >
+        </activity>
+        <activity
+            android:name="ui.Community"
+            android:label="@string/title_activity_community_page" >
+        </activity>
+        <activity
+            android:name="ui.RecipeList"
+            android:label="@string/title_activity_search_local_recipe_page" >
+        </activity>
+        <activity
+            android:name="ui.SearchLocalCooks"
+            android:label="@string/title_activity_search_local_cooks_page" >
+        </activity>
+        <activity
+            android:name="ui.UserInformation"
+            android:label="@string/title_activity_user_information_page" >
+        </activity>
+        <activity
+            android:name="ui.EditUser"
+            android:label="@string/title_activity_edit_user_page" >
+        </activity>
+        <activity
+            android:name="ui.UserUploadedRecipe"
+            android:label="@string/title_activity_user_uploaded_recipe_page" >
+        </activity>
+        <activity
+            android:name="ui.Cook"
+            android:label="@string/title_activity_user_friend_page" >
+        </activity>
+        <activity
+            android:name="ui.UserCollections"
+            android:label="@string/title_activity_user_collections_page" >
+        </activity>
+        <activity
+            android:name="ui.LocalRecipe"
+            android:label="@string/title_activity_local_recipe_page" >
+        </activity>
+        <activity android:name="ui.Delete"
+            android:label="DeletePage">
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

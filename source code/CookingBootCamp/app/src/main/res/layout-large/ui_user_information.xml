@@ -1,0 +1,268 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.qiuyi.cookingbootcamp.UserInformationPage"
+    android:background="@color/background_color"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomlist"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:src="@drawable/cookingbootcamp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.39" />
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/touxiang" />
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:text="@string/username"
+                android:typeface="normal"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"/>
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:text="@string/cookinfoemailhint"
+                android:typeface="normal"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/userDesc"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:hint="One sentence description"
+                android:singleLine="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="clip_horizontal"
+                android:text="ACCOUNT"
+                android:typeface="normal"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"/>
+            <Button
+                android:id="@+id/edit"
+                android:text="@string/editinfo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/black"
+                android:background="#FFF9C4"
+                android:typeface="normal"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/logout"
+                android:text="Log out"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:background="#FFF9C4"
+                android:typeface="normal"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="35dp"
+                android:layout_gravity="clip_horizontal"
+                android:text="RECIPES AND FRIENDS"
+                android:typeface="normal"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"/>
+
+
+            <Button
+                android:id="@+id/myrecipesbutton"
+                android:text="@string/myrecipes"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:background="#FFCCBC"
+                android:typeface="normal"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/myFriendButton"
+                android:text="@string/myfriend"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:background="#FFCCBC"
+                android:typeface="normal"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/myCollections"
+                android:text="@string/mycollections"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:background="#FFCCBC"
+                android:typeface="normal"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/deleteRecipe"
+                android:text="Delete"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:background="#FFCCBC"
+                android:typeface="normal"
+                android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/bottomlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/tabTop"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B6B6B6" />
+
+        <LinearLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tabTop"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/weixinLayout"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="3dp">
+
+                <ImageView
+                    android:id="@+id/weixinImageView"
+                    android:layout_width="96px"
+                    android:layout_height="84px"
+                    android:layout_gravity="top|center"
+                    android:src="@drawable/unselected_main" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/contractLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="3dp">
+
+                <ImageView
+                    android:id="@+id/contractImageView"
+                    android:layout_width="96px"
+                    android:layout_height="84px"
+                    android:layout_gravity="top|center"
+                    android:src="@drawable/unselected_upload" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/findLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="3dp">
+
+                <ImageView
+                    android:id="@+id/findImageView"
+                    android:layout_width="96px"
+                    android:layout_height="84px"
+                    android:layout_gravity="top|center"
+                    android:src="@drawable/unselected_community" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/meLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="3dp">
+
+                <ImageView
+                    android:id="@+id/meImageView"
+                    android:layout_width="96px"
+                    android:layout_height="84px"
+                    android:layout_gravity="top|center"
+                    android:src="@drawable/unselected_me" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+Read me for server
+
+1. Set Up Server MySQL database.
+Run your PC based MySQL first. Log in with default user “root” in database. Import the SQL file into your database. You can find these files in the Server/SQL folder.
+
+After create database for application, After you create the table for the application, you have to find the Server/src/dblayout/DatabaseIO.java file, the code on line 19,20,21 are information about MySQL, you can modify them according to your server. Also, you must import the SQL file into your server’s database first. Just in the SQL folder.
+
+2. Run Server 
+Run server to handle the communication between client and server. Load the server project into Eclipse and run Server.java class, you will see the terminal showing 
+
+		Listening on port 2222
+
+which means that the server has run successfully. You do not need to install JDBC and rebuild path for server project, all required support ready for use.
+
+Notice that if you miss any step for running server or database, our App would not work.
