@@ -1,34 +1,7 @@
 # Readme For Cook Boot Camp
-Date—Dec/11/2015
-version—5.0
-
-**Attention: This source code is based on java SE-1.8 and Android studio. You should run this project while the Server side is on running.
-***Attention: Carefully read the documentation and it will give you a overall view of this  whole project. 
-
-1: What is the source code for?
-
-This is the folder of team project for the course 18641--Java Smart Phone Development.
-
-2: Important subfolders and documents
-
-When you unzip this folder, you will see following subfolders and documents;
-
-1)CookingBootCamp
-2)Server
-3)Document
-4)Teammember_lesson_learned
-5)Diagram
-
-CookingBootCamp is the team project in this semester; 
-Server is the server source code for this project;
-Document includes all the documents you need in the project handout;
-Documentation.pdf provides an overall view of this project and what is this source code for;
-Teammember_lesson_learned includes all the team members lesson learned from this Mini;
-The final document is the Readme.txt file which is exactly the one you are reading.
-
-3: How to run the source code
-
-When you try to run the source code in the Android Studio, two steps are involved;
-
-1): Start running the Server firstly;
-2): Then you import the project into the Android Studio and run;
+This is a Android App about Making friend through recipe.
+Lena is an international student. She enjoys college life very much, courses, discussions, projects, student activities and parties. The only thing that upsets her is that dining outside everyday is very expensive. She wants to cook by herself but she knows very little about cooking. Therefore, each time she spends much time on making dishes but the dishes turns to be awful taste. Awful dishes, limited recipes and time add an unhappy element in her college life.
+To solve the problem, Lena downloads the cooking bootcamp app and register an account. Now everything is different and easy. The weekly top 10 recipes give her the answer what are the most popular dishes this week. Each time she discovers a good recipe, she can like it and add it to her recipes collections. She can also follow some cook friends. When she wants to know more, she can contact them by emails, and they are usually happy to response. Cooking, is no longer a difficult work!
+Besides all these functions, cooking bootcamp also gives a way to build up Lena cook community. Lena can find lots of local recipes and many local cooks. Local recipes really provide a good way to tell Lena what are the special food in her living city and Lena can find a lot of cook masters in local cooks and learn some cooking skills from them. Sometimes they get together to discuss what good recipes they have recently discovered and developed. Lena is very happy that she knows so many cook masters and she is determined to become one of them some day.
+Upon keeping practicing and practicing, Lena is able to make delicious dishes. She is a cook master now. Then she wants to create something innovative. She wants to share some of her unique dishes recipes from the app and help other people to learn cooking, so she creates and upload her own recipes. And now she has collected thousands of likes in her recipes. And a lot of people add her as their cook friends. She often invites some of her cook friends to home at weekends. They share foods, drinks and happy times. Lena even think she can make a boyfriend among those cook friends.
+Cooking bootcamp app , in Lena's opinion, provides her a potential way to explore and enjoy cooking time in her life.
