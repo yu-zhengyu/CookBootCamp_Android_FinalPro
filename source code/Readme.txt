@@ -1,4 +1,3 @@
-Author--Yi Qiu
 Date—Dec/11/2015
 version—5.0
 
